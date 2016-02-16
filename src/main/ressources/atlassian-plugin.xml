@@ -1,8 +1,8 @@
-<atlassian-plugin key="ch.bielbienne.seraph.russo" name="russo" plugins-version="1">
+<atlassian-plugin key="ch.fuchsnet.seraph.russo" name="russo" plugins-version="1">
 	<plugin-info>
 		<description>This is a SSO plugin using Seraph and a httpd set header for Atlassian JIRA.</description>
 		<version>1.0</version>
-		<vendor name="Biel-Bienne" url="http://www.biel-bienne.ch"/>
+		<vendor name="Fuchsnet" url="http://www.fuchsnet.ch"/>
         <param name="plugin-icon">images/pluginIcon.png</param>
         <param name="plugin-logo">images/pluginLogo.png</param>
 	</plugin-info>

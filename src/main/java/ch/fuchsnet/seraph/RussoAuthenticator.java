@@ -1,4 +1,4 @@
-package ch.bielbienne.seraph;
+package ch.fuchsnet.seraph;
 
 import org.apache.log4j.Logger;
 
@@ -11,7 +11,7 @@ import com.atlassian.jira.security.login.JiraSeraphAuthenticator;
 import java.security.Principal;
 
 /*
-Biel Bienne Authenticator russo: 
+Remote User Signle Sign On Authenticator russo: 
 Authenticating to Jira with the X_Forwarded_User HTTP header
 Copyright (C) 2014  Christian Loosli
 
@@ -36,13 +36,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  * @author Christian Loosli
  *
  */
-public class BielBienneAuthenticator extends JiraSeraphAuthenticator
+public class RussoAuthenticator extends JiraSeraphAuthenticator
 {
 
 	// Header we read. Has to be lowercase even if the header is set uppercase in apache
 	private static final String strHeaderName = "x-forwarded-user";
 	private static final long serialVersionUID = 1807345345435345234L;
-	private static final Logger log = Logger.getLogger(BielBienneAuthenticator.class);
+	private static final Logger log = Logger.getLogger(RussoAuthenticator.class);
 	
 	// Print additional information and warnings, useful when developing, else it just spams the logs a bit. 
 	private static final boolean useDebug = false; 

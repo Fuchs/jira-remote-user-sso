@@ -5,13 +5,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>ch.bielbienne.seraph</groupId>
+    <groupId>ch.fuchsnet.seraph</groupId>
     <artifactId>russo</artifactId>
     <version>1.0</version>
 
     <organization>
-        <name>Biel Bienne</name>
-        <url>http://www.biel-bienne.ch</url>
+        <name>Fuchsnet</name>
+        <url>http://www.fuchsnet.ch</url>
     </organization>
 
     <name>russo</name>
