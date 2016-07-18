@@ -18,7 +18,7 @@ There are a few things you need in order to install this plugin:
 * Build the .jar file with the `atlas-package` command in the root folder (containing the pom.xml) 
 * Stop your JIRA instance if it is running
 * Copy the target/russo-1.0.jar file to the WEB-INF/libs folder of your JIRA installation
-* Modify the WEB-INF/classes/seraph-config.xml file by commenting out existing auth classes and adding <authenticator class="ch.fuchsnet.seraph.RussoAuthenticator"/>
+* Modify the WEB-INF/classes/seraph-config.xml file by commenting out existing auth classes and adding ```<authenticator class="ch.fuchsnet.seraph.RussoAuthenticator"/>```
 * Restart your JIRA instance
 * If it doesn't work as expected, check your JIRA logs. If you need more verbose information, set useDebug to true and recompile and reinstall the package
 
